@@ -1,0 +1,18 @@
+.main-footer {
+  color: white;
+  background-color: $black-400;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Encode Sans";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: lowercase;
+
+  .social-medias {
+    display: flex;
+    gap: 24px;
+  }
+}

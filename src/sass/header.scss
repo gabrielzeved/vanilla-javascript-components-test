@@ -1,0 +1,33 @@
+.main-header {
+  display: flex;
+  //position: fixed;
+  //top: 0;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  gap: 0 16px;
+  align-items: center;
+  .nav-item {
+    font-family: "Raleway";
+    color: $black-600;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    &.highlight {
+      border-radius: 30px;
+      padding: 8px 24px;
+      background-color: $blue-600;
+      color: white;
+      transition: all 0.2s ease;
+      &:hover {
+        background-color: $blue-400;
+      }
+    }
+  }
+}
